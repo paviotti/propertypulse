@@ -3,15 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
+    "dash": "^3.25.22",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.1",
+    "next": "14.1.4",
+    "next-auth": "^4.24.7",
+    "react": "^18.2.0",
     "react-dom": "^18",
-    "next": "14.1.4"
+    "react-icons": "^5.0.1",
+    "react-spinners": "^0.13.8",
+    "spinners": "^1.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
